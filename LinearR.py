@@ -6,7 +6,7 @@ import pandas as pd
 
 colnames=['f1', 'f2', 'f3', 'f4','label'] 
 # this is my local path for Iris data D:\Spring 2023\Machine Learning\iris.data' 
-df = pd.read_csv('D:\MSCS_UTA_RA\Spring 2023\Machine Learning\Assignments and Projects\P1\iris.data',names=colnames,header=None,index_col=False)
+df = pd.read_csv('Spring 2023\Machine Learning\Assignments and Projects\P1\iris.data',names=colnames,header=None,index_col=False)
 
 # setting the lables into numericals
 df.replace("Iris-setosa",1,inplace=True)
